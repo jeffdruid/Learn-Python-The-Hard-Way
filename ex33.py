@@ -5,7 +5,7 @@ def add_numbers(max, step=1):
         print "At the top i is %d" % i
         numbers.append(i)
 
-        i = i + step
+        i += step
         print "Numbers now: ", numbers
         print "At the bottom i is %d" % i
     
